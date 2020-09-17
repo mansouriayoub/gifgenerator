@@ -38,4 +38,12 @@ const image = document.querySelector('img');
                         image.src = data.data.images.original.url
                     }, 500);
                 })
+<<<<<<< HEAD:index.js
         }
+=======
+        }
+    </script>
+</body>
+
+</html>
+>>>>>>> d12f47357003b1482eecb9c5f758ce4a216163ba:index.html
