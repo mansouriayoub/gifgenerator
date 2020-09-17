@@ -34,8 +34,6 @@ function loadImg(e) {
             return response.json();
         })
         .then(function (data) {
-            setTimeout(() => {
                 image.src = data.data.images.original.url
-            }, 500);
         })
 }
