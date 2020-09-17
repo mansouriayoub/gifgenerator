@@ -1,0 +1,28 @@
+ body {
+     text-align: center;
+ }
+
+ .img {
+     height: 500px;
+     width: 500px;
+     border: 1px solid #002233;
+     margin: 10px;
+ }
+
+ button {
+     border: none;
+     padding: 10px;
+     height: 50px;
+     width: 100px;
+ }
+
+ button:hover {
+     background-color: #002233;
+     color: azure;
+ }
+
+ input {
+     border: 1px solid #ff3200;
+     padding: 20px;
+     margin: 10px;
+ }

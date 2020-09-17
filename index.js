@@ -1,56 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fetch native function</title>
-    <style>
-        body {
-            text-align: center;
-        }
-
-        .img {
-            height: 500px;
-            width: 500px;
-            border: 1px solid #002233;
-            margin: 10px;
-        }
-
-        button {
-            border: none;
-            padding: 10px;
-            height: 50px;
-            width: 100px;
-        }
-
-        button:hover {
-            background-color: #002233;
-            color: azure;
-        }
-
-        input {
-            border: 1px solid #ff3200;
-            padding: 20px;
-            margin: 10px;
-        }
-    </style>
-</head>
-
-<body>
-    <div>
-        <img class="img"
-            src="https://media0.giphy.com/media/GwGXoeb0gm7sc/giphy.gif?cid=6dae76714704c9ee62c53dcdece14ac7bb5b49fcc857a9d7&rid=giphy.gif"
-            alt="">
-    </div>
-    <button>Random Cat Gif</button>
-    <br>
-    <form>
-        <input type="text" placeholder="Search for a gif" required>
-        <button type="submit">Search Gif</button>
-    </form>
-    <script>
-        const image = document.querySelector('img');
+const image = document.querySelector('img');
         const btn = document.querySelector('button');
 
         const form = document.querySelector('form');
@@ -91,7 +39,3 @@
                     }, 500);
                 })
         }
-    </script>
-</body>
-
-</html>
